@@ -119,9 +119,8 @@ img {
   background-color: #c6ffb8;
 }
 
-.try__5 {
-  height: 300px;
-  background-color: #f1b8ff;
+.advantages {
+  background-color: var(--main-bg-color);
 }
 
 .try__6 {
