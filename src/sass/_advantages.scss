@@ -1,34 +1,28 @@
+li { list-style-type: none;
+}
 
-// li { list-style-type: none;
-// }
+.conteiner{
+    max-width: 1200px;
+    min-width: 280px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
 
-// .conteiner{
-//     max-width: 1200px;
-//     min-width: 280px;
-//     padding-left: 15px;
-//     padding-right: 15px;
-//     margin-right: auto;
-//     margin-left: auto;
-//     justify-content: center;
-//     align-items: center;
+    @media screen and (max-width: 767px) {
+        max-width: 480px;
+    }
 
-//     @media screen and (max-width: 767px) {
-//         max-width: 480px;
-//     }
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
 
-//     @media screen and (min-width: 768px) {
-//         width: 768px;
-        
-//         .header &{
-//             display:flex;  
-//             align-items: center;
-//             }
-//     }
-
-//     @media screen and (min-width: 1200px)   {
-//         width: 1200px;
-//     }  
-// }
+    @media screen and (min-width: 1200px)   {
+        width: 1200px;
+    }  
+}
 
 .advantages{
     background-color: var(--main-bg-color);
@@ -43,16 +37,19 @@
     line-height: 1.13%;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    color:var( --btn-header-secondary-bg-color);
 
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 
     @media screen and (min-width: 768px) {
         font-size: 48px;
+        margin-bottom: 35px;
 
     }
     @media screen and (min-width: 1200px) {
-        font-size: 58px
+        font-size: 58px;
+        margin-bottom: 44px;
     }
 }
 
@@ -78,17 +75,6 @@
  
 }
 
-.visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
-}
-
 .advantages__li{
     @media screen and (min-width: 768px) {
         margin-right: 73px;
@@ -103,3 +89,7 @@
         display: flex;
     }
 }
+
+// .advantages__icon{
+//     background-color: red;
+// }
