@@ -1,38 +1,38 @@
-li { list-style-type: none;
-}
+// li { list-style-type: none;
+// }
 
 .advantages{
     background-color: var(--main-bg-color);
     padding: 39px 0px 97px 0px;
 }
 
-.container{
-    max-width: 1200px;
-    min-width: 280px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: center;
-    align-items: center;
+// .container{
+//     max-width: 1200px;
+//     min-width: 280px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin-right: auto;
+//     margin-left: auto;
+//     justify-content: center;
+//     align-items: center;
 
-    @media screen and (max-width: 767px) {
-        max-width: 480px;
-    }
+//     @media screen and (max-width: 767px) {
+//         max-width: 480px;
+//     }
 
-    @media screen and (min-width: 768px) {
-        width: 768px;
+//     @media screen and (min-width: 768px) {
+//         width: 768px;
         
-        .header &{
-            display:flex;  
-            align-items: center;
-            }
-    }
+//         .header &{
+//             display:flex;  
+//             align-items: center;
+//             }
+//     }
 
-    @media screen and (min-width: 1200px)   {
-        width: 1200px;
-    }  
-}
+//     @media screen and (min-width: 1200px)   {
+//         width: 1200px;
+//     }  
+// }
 
 .advantages__bold-text{
     font-family: 'Titan One';
