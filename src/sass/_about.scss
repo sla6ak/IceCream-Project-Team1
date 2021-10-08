@@ -1,4 +1,22 @@
-.try__4{
-    height: 300px;
-    background-color: #c6ffb8;
+.container {
+  background-image: url(../images/mobile/Display-x1/mobi-mukalo-x1.png);
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/mobile/Display-x2/);
+  }
+}
+.about-pre-text {
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-title {
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #d41443;
 }
