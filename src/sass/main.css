@@ -125,7 +125,7 @@ li {
 
 .advantages {
   background-color: var(--main-bg-color);
-  padding: 39px 0px 145px 0px;
+  padding: 39px 0px 97px 0px;
 }
 
 .container {
@@ -189,6 +189,18 @@ li {
   line-height: 170%;
 }
 
+@media screen and (min-width: 768px) {
+  .advantages__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages__text {
+    font-size: 16px;
+  }
+}
+
 .advantages__li + .advantages__li {
   margin-top: 38px;
 }
@@ -202,6 +214,18 @@ li {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .dvantages__list {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .dvantages__list {
+    font-size: 58px;
+  }
 }
 
 .try__6 {
