@@ -46,6 +46,12 @@ img {
   line-height: 1.31;
 }
 
+.conteiner {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
 .section-title {
   font-family: Titan One;
   font-style: normal;
