@@ -4,19 +4,19 @@
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M2.519 2l26.963 28"></path>
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M2 29.481l28-26.963"></path>
 </symbol>
-<symbol id="icon-burger" viewBox="0 0 46 32">
-<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 2.286h45.714"></path>
-<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 16h45.714"></path>
-<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 29.714h45.714"></path>
+<symbol id="icon-menu_40px" viewBox="0 0 32 32">
+<path d="M6.4 11.733V9.6h19.2v2.133H6.4zm0 5.334h19.2v-2.133H6.4v2.133zm0 5.333h19.2v-2.133H6.4V22.4z"/>
 </symbol>
+<symbol id="icon-next" viewBox="0 0 22 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.321 3.2l14.974 12.8-14.974 12.8"></path>
+</symbol>
+
 <symbol id="icon-points" viewBox="0 0 139 32">
 <path d="M85.333 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
 <path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
 <path d="M138.667 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
 </symbol>
-<symbol id="icon-next" viewBox="0 0 26 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.542 3.2l16.825 12.8-16.825 12.8"></path>
-</symbol>
+
 <symbol id="icon-arrow-right" viewBox="0 0 32 32">
 <path d="M31 16l-15-15v9h-16v12h16v9z"></path>
 </symbol>
