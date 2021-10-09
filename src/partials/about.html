@@ -3,6 +3,11 @@
         <p class="about__pre-text">tradition and love</p>
         <h2 class="about__title" >how it's made?</h2>
         <picture>
+            <!-- <source srcset="./images/desktop/display-x1/desktop-mukalo-x1.png 1x, ./images/desktop/display-x2/desktop-mukalo-x2.png 2x,  "
+                media="(min-width:1200px)">
+            <source srcset="./images/mobile/Display-x1/mobi-mukalo-x1.png 1x, ./images/mobile/Display-x2/mobi-mukalo-x2.png 1x"
+                media="(min-width:768px)"> -->
+                <source srcset="">
             <source srcset="./images/mobile/Display-x1/mobi-mukalo-x1.png 1x, ./images/mobile/Display-x2/mobi-mukalo-x2.png 1x" media="(min-width:320px)">
             <img class="about__image-cow" src="./images/mobile/Display-x1/mobi-mukalo-x1.png " alt="коровка">
         </picture>
@@ -15,6 +20,12 @@
                 Aliquam erat volutpat. Aenean accumsan.
             </p>
         </div>
-        <button type="button" class="about-btn" data-modal-open ></button>
+        <div>
+        <button type="button" class="about-btn" data-modal-open >Read more</button>
+        <svg class="about-btn__icon" widht="4.43" heiht="8" >
+            <!-- <use href="../images/sprite.svg#icon-arrow-right2" >                
+            </use> -->
+        </svg>
+        </div>
     </div>
 </section>

@@ -3,8 +3,9 @@
   padding-top: 125px;
   padding-bottom: 39px;
 }
-.about__container {
-  background-image: url(../images/mobile/Display-x1/about-bg-mob-1x.png);
+
+.about__text {
+  display: block;
 }
 .about__pre-text {
   font-family: Titan One;
@@ -54,8 +55,24 @@
   font-size: 12px;
   line-height: 1.58;
   color: var(--third-text-color);
-  margin: 0 50px 17px 50px;
+  margin: 0 50px 25px 50px;
 }
 .about-btn {
-  width: ;
+  display: block;
+  width: 178px;
+  height: 44px;
+  justify-content: center;
+  border-radius: 22px;
+  background-color: var(--third-bg-color);
+  border: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--accent-color);
+  margin-left: 50px;
 }
