@@ -22,6 +22,9 @@ body.scroll{
 .modal__view{
     position: relative;
     background-color: var(--secondary-bg-color);
+    background-image: url(../images/desktop/display-x1/desktop-spray-x1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     @media screen and (max-width: 479px) {
         width: 100%;
         min-height: 609px;
