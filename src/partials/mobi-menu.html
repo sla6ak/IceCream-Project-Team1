@@ -1,35 +1,42 @@
+   
     <button type="button" class="menu-open js-open-menu" aria-controls="mobile-menu" data-menu-button>
-        <!--<svg width="20" height="12">
-            <use class="menu-button__icon-menu" href="./images/.svg#"></use>
-        </svg>-->
+        <svg width="20" height="12">
+            <use class="menu-button__icon-menu" href="./images/sprite.svg#icon-menu_40px"></use>
+        </svg>
     </button>
-    <div class="menu-container js-menu-container" id="mobile-menu">
-        <div>
+    <div class="menu-container__wrap">
+        <div class="menu-container js-menu-container" id="mobile-menu">
+        
             <button class="menu-close js-close-menu">
-                <!--<svg width="13.5" height="14">
-                    <use class="menu-button__icon-cross" href="./images/.svg#"></use>
-                </svg>-->
+                <svg class="menu-button__icon-cross" width="13.5" height="14">
+                    <use  href="./images/sprite.svg#icon-close"></use>
+                </svg>
             </button>
-        </div>
-        <button type="button" data-modal-open class="menu-container__menu-button">Buy now</button>
-        <div>
-            <ul class="mobile-menu list">
-                <li class="mobile-menu__item">
-                    <a href="" class="mobile-menu__link link current">Home</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="" class="mobile-menu__link link">About us</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="" class="mobile-menu__link link">How it’s made?</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="" class="mobile-menu__link link">Our products</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="" class="mobile-menu__link link">Contact</a>
-                </li>
-            </ul>
+        
+            <button type="button" data-modal-open class="menu-container__menu-button">Buy now
+                <svg class="menu-container__menu-button-icon" width="5.26" height="8">
+                    <use href="./images/sprite.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+            <div>
+                <ul class="mobile-menu__list list">
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link link current">Home</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link link">About us</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link link">How it’s made?</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link link">Our products</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link link">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 

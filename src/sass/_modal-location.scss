@@ -1,0 +1,68 @@
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(121, 60, 60, 0.2);
+    opacity: 1;
+    overflow-y: scroll;
+    @media screen and (max-width: 479px) {
+        padding: 40px 20px 40px 20px;
+    }
+}
+body.scroll{
+    overflow-y: hidden;
+}
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+.modal__view{
+    position: relative;
+    background-color: var(--secondary-bg-color);
+    background-image: url(../images/desktop/display-x1/desktop-spray-x1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 479px) {
+        width: 100%;
+        min-height: 609px;
+        padding: 20px;
+    }
+    @media screen and (min-width: 480px) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 480px;
+        min-height: 400px;
+        padding: 40px;
+    } 
+    }
+    .modal__close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: var(--mobile-menu-bg-color);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover .modal_icon{
+        fill: #546;
+    }
+}
+.modal__paragraf{
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.13;
+    color: var(--main-title-color);
+    margin-bottom: 30px;
+}
