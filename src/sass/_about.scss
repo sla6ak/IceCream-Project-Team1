@@ -1,11 +1,8 @@
-.container {
-  background-image: url(../images/mobile/Display-x1/mobi-mukalo-x1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 400px;
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/mobile/Display-x2/mobi-mukalo-x2.png);
-  }
+.about {
+  padding-top: 125px;
+}
+.about-container {
+  height: 1688px;
 }
 .about-pre-text {
   font-family: 'Titan One';
@@ -15,7 +12,7 @@
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
-  color: var(--pre-title-color);
+  color: #ffa5ba;
 }
 
 .about-title {
