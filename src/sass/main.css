@@ -145,6 +145,10 @@ img {
   background-image: linear-gradient(#fff 11%, #fff5f6 0 100%);
 }
 
+.visibility-title {
+  visibility: hidden;
+}
+
 .contacts-list {
   display: -webkit-box;
   display: -ms-flexbox;

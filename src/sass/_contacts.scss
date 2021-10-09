@@ -1,6 +1,9 @@
 .contacts {
   background-image: linear-gradient(#fff 11%, #fff5f6 0 100%);
 }
+.visibility-title {
+  visibility: hidden;
+}
 .contacts-list {
   display: flex;
   flex-direction: column;
