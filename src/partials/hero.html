@@ -1,9 +1,54 @@
-<section class="try__2">
-    это секция герой
-    <picture>
-        <!-- <source  srcset="images/mobile/Display-x1/mobi-gallery-x1.jpg 1x, images/mobile/Display-x1/mobi-gallery-x2.jpg 2x" media="(max-width: 767px)"> -->
-        <!-- <source  srcset=" 1x, .jpg 2x" media="(max-width: 1199px)">
-        <source  srcset=".jpg 1x, .jpg 2x" media="(min-width: 1200px)"> -->
-        <img src="./images/mobile/Display-x1/mobi-hero-x1.png" width="170" height="410" alt="мороженое">
-    </picture>
+<!-- Секция герой -->
+<section class="hero">
+  <div class="container hero__container">
+    <div class="hero-image__thumb">
+      <picture class="hero-image">
+        <source
+          srcset="
+            ./images/mobile/Display-x1/mobi-hero-x1.png 1x,
+            ./images/mobile/Display-x2/mobi-hero-x2.png 2x
+          "
+          media="(max-width: 767px)"
+          type="png"
+        />
+        <source
+          srcset="
+            ./images/tablet/display-x1/tablet-hero-x1.png 1x,
+            ./images/tablet/display-2x/tablet-hero-x2.png 2x
+          "
+          media="(max-width: 1199px)"
+          type="png"
+        />
+        <source
+          srcset="
+            ./images/desktop/display-x1/desktop-hero-x1.png 1x,
+            ./images/desktop/display-x2/desktop-hero-x2.png 2x
+          "
+          media="(min-width: 1200px)"
+          type="png"
+        />
+        <img
+          src="./images/mobile/Display-x1/mobi-hero-x1.png"
+          width="170"
+          height="410"
+          alt="мороженое"
+        />
+      </picture>
+    </div>
+    <div class="hero__content">
+      <h1 class="hero__title">
+        ice cream made with
+        <span class="hero__title--accent">passion</span>
+      </h1>
+      <ul class="hero__list list">
+        <li class="hero__item">
+          <a href="#" class="hero__link hero__link--products link">Products</a>
+        </li>
+
+        <li class="hero__item">
+          <a href="#" class="hero__link hero__link--made link">How it’s made?</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
