@@ -59,24 +59,25 @@
         font-size: 66px;
     }
 }
-.footer__link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    border-radius: 50%;
-    color: var(--svg-main-fill);
-    &:hover,&:focus{
-        background-color: --svg-hover-bg-color;
-        
-    }
-}
+
 .footer__link--svg{
     width: 32px;
     height: 32px;
     border-radius: 50%;
     fill: currentColor;
     background-color: var(--svg-bg-color);
+}
+.footer__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    color:  var(--svg-bg-color);
+    &:hover,&:focus{
+       color: var(--svg-hover-bg-color);
+        
+    }
 }
 .footer__tel{
     font-family: DM Sans, Sans Serif;
