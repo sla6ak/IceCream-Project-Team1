@@ -24,7 +24,7 @@ li { list-style-type: none;
 
 .advantages{
     background-color: var(--main-bg-color);
-    padding: 39px 0px 97px 0px;
+    padding-bottom: 97px;
 }
 
 .advantages__bold-text{
@@ -70,10 +70,11 @@ li { list-style-type: none;
     @media screen and (max-width: 768px) {
         margin-top:38px ;
     }
- 
 }
 
 .advantages__li{
+
+    background-repeat: no-repeat;
     @media screen and (min-width: 768px) {
         margin-right: 73px;
     }
@@ -86,4 +87,5 @@ li { list-style-type: none;
     @media screen and (min-width: 768px) {
         display: flex;
     }
-}
+  
+} 
