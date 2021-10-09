@@ -1,30 +1,30 @@
-li { list-style-type: none;
-}
+// li { list-style-type: none;
+// }
 
-.container{
-    max-width: 1200px;
-    min-width: 280px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: center;
-    align-items: center;
+// .container{
+//     max-width: 1200px;
+//     min-width: 280px;
+//     margin-right: auto;
+//     margin-left: auto;
+//     justify-content: center;
+//     align-items: center;
 
-    @media screen and (max-width: 767px) {
-        max-width: 480px;
-    }
+//     @media screen and (max-width: 767px) {
+//         max-width: 480px;
+//     }
 
-    @media screen and (min-width: 768px) {
-        width: 768px;
-    }
+//     @media screen and (min-width: 768px) {
+//         width: 768px;
+//     }
 
-    @media screen and (min-width: 1200px)   {
-        width: 1200px;
-    }  
-}
+//     @media screen and (min-width: 1200px)   {
+//         width: 1200px;
+//     }  
+// }
 
 .advantages{
     background-color: var(--main-bg-color);
-    padding: 39px 0px 97px 0px;
+    padding-bottom: 97px;
 }
 
 .advantages__bold-text{
@@ -37,7 +37,7 @@ li { list-style-type: none;
     text-transform: uppercase;
     color:var( --btn-header-secondary-bg-color);
 
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 25px;
 
     @media screen and (min-width: 768px) {
@@ -70,10 +70,11 @@ li { list-style-type: none;
     @media screen and (max-width: 768px) {
         margin-top:38px ;
     }
- 
 }
 
 .advantages__li{
+
+    background-repeat: no-repeat;
     @media screen and (min-width: 768px) {
         margin-right: 73px;
     }
@@ -86,4 +87,5 @@ li { list-style-type: none;
     @media screen and (min-width: 768px) {
         display: flex;
     }
-}
+  
+} 
