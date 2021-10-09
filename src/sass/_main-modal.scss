@@ -84,34 +84,11 @@
     text-align: center;
     color: var(--main-title-color);
     margin-bottom: 12px;
-    @media screen and (min-width: 1200px) {
       font-style: normal;
       font-weight: 700;
       font-size: 20px;
       line-height: 1.5;
       letter-spacing: 0.03em;
-    }
-    @media screen and (min-width: 480px) {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 1.5;
-      letter-spacing: 0.03em;
-    }
-    @media screen and (min-width: 768px) {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 1.5;
-      letter-spacing: 0.03em;
-    }
-    @media screen and (min-width: 1200px) {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 1.15;
-      letter-spacing: 0.03em;
-    }
   } 
  
   .modal-form__label {
@@ -289,7 +266,6 @@
     font-size: 11px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-      @include font(11px, 1.16);
     }
     &:hover,
     &:focus {
@@ -301,4 +277,35 @@
     margin-right: auto;
     margin-left: auto;
   } 
+/* modal-button */
+.main-button {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-align: center;          
+  padding: 10px;
+  width: 200px;
+  box-shadow: var(--box-shadow-card);
+  border: 0;
+  color: var(--main-title-color);
+  background-color: var(--svg-bg-color);
+  border-radius: 7px;
+  transition-property: background-color, box-shadow, color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    box-shadow: var(--box-shadow);
+    color: var(--secondary-text-color);
+  } 
+}  
+
   
