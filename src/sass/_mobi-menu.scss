@@ -8,11 +8,12 @@
   height: 100vh;
   display: none;
   top: 0;
-  transform: translateX(100%);
+  transform: translateX(101%);
   transition: transform 2000ms var(--timing-function);
   &.is-open {
     display: block;
     transform: translateX(0);
+    transition: transform 2000ms var(--timing-function);
   }
   &.is-hidden {
     visibility: hidden;
@@ -27,7 +28,7 @@
   }
   @media screen and(min-width: 480px) {
     width: 30%;
-    top: 0;
+    top: -37px;
     left: 70%;
   }
 }
