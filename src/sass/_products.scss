@@ -1,4 +1,9 @@
+.products {
+  padding-bottom: 98px;
+}
+
 .products__text {
+  font-family: Titan One;
   font-size: 18px;
   line-height: calc(21 / 18);
   /* identical to box height */
@@ -11,31 +16,49 @@
   margin-bottom: 15px;
 }
 .products__heading {
+  font-family: Titan One;
   font-size: 34px;
   line-height: calc(39 / 34);
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: #9e7680;
+  color: #d41443;
 
-  margin-bottom: 31px;
+  margin-bottom: 144px;
 }
-
 .products-list__products-item {
+  position: relative;
+}
+.products-list__products-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 280px;
   height: 485px;
   border-radius: 24px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    bottom: 265px;
+    background-image: url(../images/mobile/Display-x1/elipse.png);
+    width: 32px;
+    height: 4px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 130px;
+  }
 }
 .products-list__products-item--color {
   &:nth-child(1) {
-    color: #ffb8ca;
+    background-color: #ffb8ca;
   }
   &:nth-child(2) {
-    color: #f0d1a5;
+    background-color: #f0d1a5;
   }
   &:nth-child(3) {
-    color: #c2e297;
+    background-color: #c2e297;
   }
 }
 .products-list__text {
@@ -43,16 +66,53 @@
 
   font-weight: bold;
   font-size: 14px;
-  line-height: cacl(21/14);
+  line-height: calc(21 / 14);
   /* or 21px */
 
   text-align: center;
   letter-spacing: 0.04em;
 
   color: #ffffff;
+  margin: 0px 40px;
+}
+.products-list__image {
+  display: block;
+  margin: -113px auto 0px auto;
 }
 
-.products-list__image-background {
-  width: 100px;
-  height: 100px;
+.products-list__description {
+  display: block;
+}
+
+.products-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products-list__heading {
+  font-family: Titan One;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.products-list__button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  fill: #d41443;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
