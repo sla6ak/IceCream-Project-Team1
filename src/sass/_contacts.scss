@@ -2,7 +2,8 @@
   visibility: hidden;
 }
 .contacts {
-  background-color: linear-gradient(#fff 4%, #fff5f6 0 100%);
+  // background-color: linear-gradient(#fff 4%, #fff5f6 0 100%);
+  background: linear-gradient(to top, var(--main-bg-color) 92%,  var(--secondary--title-color) 0%);
 }
 @media screen and (min-width: 768px) {
   .contacts {
@@ -233,6 +234,7 @@
 @media screen and (min-width: 1200px) {
   .locations-btn {
     width: 198px;
+    border: none;
   }
 }
 .franchise-btn {
@@ -242,6 +244,7 @@
   height: 44px;
   border-radius: 22px;
   width: 161px;
+  border: none;
 }
 .franchise-btn:focus,
 .franchise-btn:hover {
