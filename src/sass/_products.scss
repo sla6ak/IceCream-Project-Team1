@@ -1,4 +1,118 @@
-.try__3 {
-  height: 300px;
-  background-color: #b8d9ff;
+.products {
+  padding-bottom: 98px;
+}
+
+.products__text {
+  font-family: Titan One;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffa5ba;
+
+  margin-bottom: 15px;
+}
+.products__heading {
+  font-family: Titan One;
+  font-size: 34px;
+  line-height: calc(39 / 34);
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #d41443;
+
+  margin-bottom: 144px;
+}
+.products-list__products-item {
+  position: relative;
+}
+.products-list__products-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 280px;
+  height: 485px;
+  border-radius: 24px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    bottom: 265px;
+    background-image: url(../images/mobile/Display-x1/elipse.png);
+    width: 32px;
+    height: 4px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 130px;
+  }
+}
+.products-list__products-item--color {
+  &:nth-child(1) {
+    background-color: #ffb8ca;
+  }
+  &:nth-child(2) {
+    background-color: #f0d1a5;
+  }
+  &:nth-child(3) {
+    background-color: #c2e297;
+  }
+}
+.products-list__text {
+  font-family: DM Sans;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(21 / 14);
+  /* or 21px */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  margin: 0px 40px;
+}
+.products-list__image {
+  display: block;
+  margin: -113px auto 0px auto;
+}
+
+.products-list__description {
+  display: block;
+}
+
+.products-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products-list__heading {
+  font-family: Titan One;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.products-list__button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  fill: #d41443;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

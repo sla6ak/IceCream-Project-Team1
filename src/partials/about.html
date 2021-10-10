@@ -1,3 +1,55 @@
-<section class="try__4">
-    это секция о продукте
+<section class="about">
+    <div class="container about__container">
+        <p class="about__pre-text">tradition and love</p>
+        <h2 class="about__title" >how it's made?</h2>
+        <div class="about_card">
+            <picture>
+                <!-- <source srcset="../images/desktop/display-x1/desktop-mukalo-x1.png 1x, ../images/desktop/display-x2/desktop-mukalo-x2.png 2x,  "
+                    media="(min-width:1200px)"> -->
+                <source srcset="../"   media="(min-width:768px)">                    
+                <source srcset="./images/mobile/Display-x1/mobi-mukalo-x1.png 1x, ./images/mobile/Display-x2/mobi-mukalo-x2.png 2x" media="(min-width:320px)">
+                <img class="about__image-cow" src="./images/mobile/Display-x1/mobi-mukalo-x1.png " alt="коровка">
+            </picture>
+            <div class="about__text" >
+                <p class="about__text-one"> Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros.
+                Maecenas eleifend erat at justo fringilla.</p>
+                <p class="about__text-two">
+                    Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
+                    Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.            
+                    Aliquam erat volutpat. Aenean accumsan.
+                </p>            
+                <button type="button" class=" button about-btn" >Read more
+                <svg class="about-btn__icon" width="4.43" height="8" >
+                    <use href="./images/sprite.svg#icon-next" >                
+                    </use>
+                </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="modal3">
+        <button type="button" class="modal3__btn-close" data-modal-close>
+            <!-- <svg class="modal3__btn-close-icon" width="11" height="11">
+                <use href="./images/icons.svg#icon-vector"></use>
+            </svg> -->
+        </button>
+        <b class="modal3__title">Преимущества нашей продукции</b>
+        <p  class="modal3__text"> Главное преимущество употребления молочных продуктов — это их способность благотворно влиять на микрофлору кишечника.
+        Также они содержат кальций и витамин Д, которые укрепляют кости и препятствуют развитию раковых опухолей. Наиболее
+        ценным источником здоровья является молоко.</p>
+        <form action="#" class="modal3-form">            
+            
+            <div class="modal-form-field">
+                <label for="input-tel" class="modal-form-field__label">Телефон</label>
+                <span class="input-wrapper">
+                    <input type="tel" name="modal-tel" id="input-tel" class="modal-form-field__input" placeholder=>
+                    <!-- <svg class="modal-form-field__icon" width="13" height="12">
+                        <use href="./images/icons.svg#icon-tel"></use>
+                    </svg> -->
+                </span>
+            </div>           
+            
+                        <button type="submit" class="form-btn">Обратный звонок</button>
+        </form>
+    </div>
 </section>
