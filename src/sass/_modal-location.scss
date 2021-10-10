@@ -19,6 +19,9 @@ body.scroll{
     opacity: 0;
     pointer-events: none;
 }
+.maps{
+    width: 100%;
+}
 .modal__view{
     position: relative;
     background-color: var(--secondary-bg-color);
