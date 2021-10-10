@@ -23,7 +23,13 @@
   border-radius: 50%;
   position: absolute;
   top: 27px;
-  left: 36px;
+  @media screen and (max-width: 417px) {
+    left: 36px;
+  }
+
+  @media screen and (min-width: 417px) {
+    right: 36px;
+  }
 }
 .hero-image {
   position: absolute;
