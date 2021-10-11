@@ -1,3 +1,8 @@
+.form-modak_content{
+    display: flex;
+    justify-content:center;
+}
+
 .call-back{
     margin-bottom: 12px;
     margin-right: 5%;
@@ -39,7 +44,7 @@
     width: 100%;
     outline: none;
     height: 40px;
-    padding: 12px 16px 12px 42px;
+    padding: 12px 16px 12px 15px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
