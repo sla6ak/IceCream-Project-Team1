@@ -7,6 +7,7 @@
   z-index: 9;
   @media screen and (min-width: 768px) {
     top: 37px;
+    padding: 0;
   }
 }
 .header__container {
@@ -80,6 +81,8 @@
   cursor: pointer;
   color: var(--main-title-color);
   margin-left: auto;
+  // падинг для доступности щоб збільшити площу для кліку
+  padding: 7px 0;
   @media screen and (min-width: 1200px) {
     display: none;
   }

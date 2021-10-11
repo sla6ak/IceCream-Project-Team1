@@ -32,7 +32,7 @@
   }
   @media screen and (min-width: 768px) {
     top: 31px;
-    right: 141px;
+    right: 143px;
     width: 324px;
     height: 322px;
   }
@@ -182,18 +182,17 @@
   @media screen and (min-width: 768px) {
     display: block;
     position: absolute;
-    top: 94px;
+    top: 97px;
     right: 34px;
-    text-align: right;
   }
 }
 .hero-counter__first {
   margin-bottom: 15px;
 }
 .hero-counter__second {
-  margin-bottom: 72px;
 }
 .hero-counter__number {
+  position: relative;
   font-family: Titan One;
   font-style: normal;
   font-weight: 400;
@@ -201,23 +200,44 @@
   line-height: 1.14;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  text-align: right;
+  display: flex;
+  justify-content: right;
+  z-index: 0;
+
   &--cafes {
     color: var(--btn-bg-color);
   }
   &--trucks {
     color: var(--accent-color);
   }
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    right: -9px;
+    top: -2px;
+    z-index: -10;
+  }
 }
+
 .hero-counter__text {
   font-weight: 400;
   font-size: 8px;
   line-height: 1.25;
+
   text-align: right;
 
   color: var(--btn-bg-color);
 }
-
+.hero-counter__image {
+  position: absolute;
+  top: 266px;
+  right: 34px;
+}
 // .hero-image {
 //   position: absolute;
 //   top: 9px;
