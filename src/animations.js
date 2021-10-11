@@ -3,7 +3,7 @@ let animItems = document.querySelectorAll("._anim-transform");
 if (animItems.length > 0){
     window.addEventListener("scroll", animScroll)
     function animScroll () {
-        console.log("work")
+        
         for (let index = 0; index < animItems.length; index++) {
             // пишем в переменную объект над которым будем проводить расчеты
             let anim = animItems[index];
