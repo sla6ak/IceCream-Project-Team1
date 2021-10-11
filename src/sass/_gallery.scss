@@ -5,7 +5,9 @@
     padding-bottom: 80px;
 }
 .container-gallery {
-    width: 320px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -14,5 +16,5 @@
 }
 .gallery-main-img {
     display: block;
-    max-width: 364px;
+    max-width: 100%;
 }

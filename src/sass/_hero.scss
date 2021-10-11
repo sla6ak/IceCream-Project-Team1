@@ -37,6 +37,7 @@
     height: 322px;
   }
 }
+
 .hero-image {
   position: absolute;
   top: 9px;
@@ -216,3 +217,29 @@
 
   color: var(--btn-bg-color);
 }
+
+// .hero-image {
+//   position: absolute;
+//   top: 9px;
+//   left: 81px;
+//   height: 410px;
+//   opacity: 0.2;
+//   transform: scale(0.01) rotate(360deg);
+//   transition-property: transform, opacity;
+//   transition-duration: 500ms;
+// }
+// .prili-leto{
+//   opacity: 1;
+//   transform: scale(1);
+// }
+
+// ._anim-transform{
+//   opacity: 0.2;
+//   transform: rotateY(-100deg);
+//   transition-property: transform, opacity;
+//   transition-duration: 500ms;
+// }
+// ._bomba{
+//   opacity: 1;
+//   transform: rotateY(0deg);
+// }
