@@ -12,10 +12,17 @@
 }
 @media screen and (min-width: 1200px) {
   .contacts {
-    background-image: url(/);
+    background-image: url(/src/images/desktop/display-x1/desktop-contacts-x1.png);
     background-size: contain;
     background-position: 50%;
     background-repeat: no-repeat;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .contacts {
+    background-image: url(/src/images/desktop/display-x2/desktop-contacts-x2.png);
   }
 }
 .contacts-list {
