@@ -1,17 +1,32 @@
-.menu-container__wrap {
-  position: relative;
-}
-
 .menu-container {
-  background-color: #e17992;
+  background-color: var(--mobile-menu-bg-color);
   position: absolute;
   width: 100vw;
   width: -webkit-fill-available;
   height: 100vh;
-
-  @media screen and(min-width: 768px) {
-    width: 30%;
-    top: 0;
+  display: none;
+  top: 0;
+  transform: translateX(101%);
+  transition: transform 2000ms var(--timing-function);
+  &.is-open {
+    display: block;
+    transform: translateX(0);
+    transition: transform 2000ms var(--timing-function);
+  }
+  &.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+  &.is-open .menu-button__icon-menu {
+    display: block;
+  }
+  &.is-hidden .menu-button__icon-cross {
+    display: none;
+  }
+  @media screen and(min-width: 480px) {
+    width: 34%;
+    top: -37px;
     left: 70%;
   }
 }
@@ -22,11 +37,11 @@
   line-height: calc(21 / 16);
   display: inline-block;
   text-align: center;
-  background-color: #ffffff;
+  background-color: var(--btn-bg-color);
   padding: 11.5px 69.67px 11.5px 48.64px;
   margin: 0;
 
-  color: #d41443;
+  color: var(--btn-header-secondary-bg-color);
   position: relative;
   border-radius: 22px;
   border: none;
@@ -43,14 +58,19 @@
 
 .menu-close {
   position: absolute;
+
   right: 28px;
   top: 23.26px;
   background-color: transparent;
-  border: 1px solid red; //временно чтобы было видно позиционирование, будет none
+  border: none;
+  width: 14px;
+  height: 14px;
+  padding: unset;
 }
 
 .menu-button__icon-cross {
-  fill: #ffffff;
+  fill: var(--svg-main-fill);
+  transform: scale(1.6);
 }
 
 .mobile-menu__link {
@@ -61,24 +81,29 @@
   display: inline-block;
   align-items: center;
 
-  color: #ffffff;
+  color: var(--secondary-text-color);
   &:hover,
   &:focus,
   &.current {
-    color: #d41443;
+    color: var(--accent-color);
   }
 }
 
 .mobile-menu__list {
   margin-top: 99px;
   padding-bottom: 185px;
-  border-top: 1px solid #e18298;
+  border-top: 1px solid var(--border-menu);
 }
 
 .mobile-menu__item {
-  border-bottom: 1px solid #e18298;
+  border-bottom: 1px solid var(--border-menu);
 }
 
 .mobile-menu__link {
   padding-left: 21px;
+}
+.menu-open {
+  border: none;
+  background-color: transparent;
+  fill: var(--accent-color);
 }

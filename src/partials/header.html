@@ -1,30 +1,38 @@
-<header class="header">
+
   <div class="container header__container">
     <a href="./index.html" class="logo">
       <img class="logo__icon" src="./images/logo-x1.png" alt="logo" width="199" height="50" />
     </a>
-
-    <nav class="header__nav">
-      <ul class="nav">
-        <li class="nav__list">
-          <a href="./index.html" class="nav__link nav__link--current">Home</a>
+    <nav class="header-nav">
+      <ul class="list header-list">
+        <li class="header-list__item">
+          <a href="./index.html" class="link header-list__link header-list__link--current">Home</a>
         </li>
-        <li class="nav__list"><a href="#" class="nav__link">About us</a></li>
-        <li class="nav__list"><a href="#" class="nav__link">How it’s made?</a></li>
-        <li class="nav__list"><a href="#" class="nav__link">Our products</a></li>
-        <li class="nav__list"><a href="#" class="nav__link">Contact</a></li>
+        <li class="header-list__item"><a href="#" class="link header-list__link">About us</a></li>
+        <li class="header-list__item">
+          <a href="#" class="link header-list__link">How it’s made?</a>
+        </li>
+        <li class="header-list__item">
+          <a href="#" class="link header-list__link">Our products</a>
+        </li>
+        <li class="header-list__item"><a href="#" class="link header-list__link">Contact</a></li>
       </ul>
     </nav>
-    <button class="js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-      <svg class="menu-icon__burger" width="20" height="12">
-        <use href=""></use>
+    <button
+      class="header-btn-menu js-open-menu"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="header-btn-menu__icon" width="30" height="30">
+        <use href="./images/sprite.svg#icon-menu_40px"></use>
       </svg>
     </button>
-    <button type="button" class="btn page-header__btn" data-modal-open>
+    <button class="button header__button" type="button" data-mainmodal-open>
       Buy now
-      <svg class="btn__icon" width="8" height="8">
-        <use href=""></use>
+      <svg class="btn__icon" width="4" height="8">
+        <use href="./images/sprite.svg#icon-next"></use>
       </svg>
     </button>
   </div>
-</header>
+

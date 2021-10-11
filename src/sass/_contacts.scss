@@ -247,6 +247,7 @@
 @media screen and (min-width: 1200px) {
   .locations-btn {
     width: 198px;
+    border: none;
   }
 }
 .franchise-btn {
@@ -256,6 +257,7 @@
   height: 44px;
   border-radius: 22px;
   width: 161px;
+  border: none;
 }
 .franchise-btn:focus,
 .franchise-btn:hover {
