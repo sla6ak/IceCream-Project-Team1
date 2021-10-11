@@ -22,7 +22,7 @@
   height: 344px;
   border-radius: 50%;
   position: absolute;
-  top: 27px;
+  top: 83px;
   @media screen and (max-width: 417px) {
     left: 36px;
   }
@@ -31,12 +31,7 @@
     right: 36px;
   }
 }
-.hero-image {
-  position: absolute;
-  top: 9px;
-  left: 81px;
-  height: 410px;
-}
+
 .hero__content {
   position: absolute;
   left: 20px;
@@ -104,3 +99,29 @@
     }
   }
 }
+
+.hero-image {
+  position: absolute;
+  top: 9px;
+  left: 81px;
+  height: 410px;
+  opacity: 0.2;
+  transform: scale(0.01) rotate(360deg);
+  transition-property: transform, opacity;
+  transition-duration: 500ms;
+}
+.prili-leto{
+  opacity: 1;
+  transform: scale(1);
+}
+
+// ._anim-transform{
+//   opacity: 0.2;
+//   transform: rotateY(-100deg);
+//   transition-property: transform, opacity;
+//   transition-duration: 500ms;
+// }
+// ._bomba{
+//   opacity: 1;
+//   transform: rotateY(0deg);
+// }
