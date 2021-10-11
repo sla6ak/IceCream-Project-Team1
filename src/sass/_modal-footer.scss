@@ -1,6 +1,14 @@
 .form-modak_content{
     display: flex;
-    justify-content:center;
+    // justify-content:space-between;
+}
+
+.momble-mod{
+    width: 50%;
+}
+
+.momble-mod+ .momble-mod{
+    margin-left:8px;
 }
 
 .call-back{
