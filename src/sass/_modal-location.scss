@@ -25,13 +25,13 @@ body.scroll{
 }
 .modal__view{
     position: relative;
-    background-color: var(--secondary-bg-color);
-    background-image: url(../images/desktop/display-x1/desktop-spray-x1.png);
+    // height: 100%;
+    background-image:url(../images/desktop/display-x1/desktop-spray-x1.png), linear-gradient(229.99deg, #ffcbd8 -26%, #fd7796 145%);
     background-size: cover;
     background-repeat: no-repeat;
     @media screen and (max-width: 479px) {
         width: 100%;
-        min-height: 609px;
+        min-height: 509px;
         padding: 20px;
     }
     @media screen and (min-width: 480px) {
@@ -40,7 +40,7 @@ body.scroll{
         left: 50%;
         transform: translate(-50%, -50%);
         width: 480px;
-        min-height: 400px;
+        min-height: 300px;
         padding: 40px;
     } 
     }
