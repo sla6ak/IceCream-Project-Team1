@@ -7,7 +7,7 @@
     height: 100%;
     margin: 0;
     background-color: var(--backdrop-background);
-    z-index: 100;
+    z-index: 999;
     transition: opacity, visibility;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);

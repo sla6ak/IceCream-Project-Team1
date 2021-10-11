@@ -170,7 +170,7 @@
     cursor: pointer;
     resize: none;
   }
-  
+ 
   .modal-form__label-check {
     display: block;
     line-height: 1.7;
@@ -179,7 +179,7 @@
   }
   
   .label-checkbox-container {
-    display: flex;
+    display: inline-block;
     align-self: center; 
     align-items: center;
     width: 100%; 
