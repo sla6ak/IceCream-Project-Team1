@@ -33,6 +33,8 @@
   @media screen and (min-width: 768px) {
     top: 31px;
     right: 141px;
+    width: 324px;
+    height: 322px;
   }
 }
 .hero-image {
@@ -44,6 +46,7 @@
     top: 32px;
     left: 71px;
     height: 336px;
+    width: 143px;
   }
 }
 .hero__content {
@@ -174,10 +177,14 @@
   fill: currentColor;
 }
 .hero-counter {
-  position: absolute;
-  top: 94px;
-  right: 34px;
-  text-align: right;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 94px;
+    right: 34px;
+    text-align: right;
+  }
 }
 .hero-counter__first {
   margin-bottom: 15px;
