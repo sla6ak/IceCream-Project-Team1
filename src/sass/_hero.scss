@@ -366,7 +366,7 @@
     height: 232px;
   }
 }
-.hero-counter__image {
+.hero-info__picture {
   opacity: 0.2;
   transform: scale(0.01);
   transition-property: transform, opacity;
@@ -375,4 +375,14 @@
 .prili-leto {
   opacity: 1;
   transform: scale(1);
+}
+.hero-counter__image {
+  opacity: 0.2;
+  transform: translateY(100%);
+  transition-property: transform, opacity;
+  transition-duration: 500ms;
+}
+.prili-girl {
+  opacity: 1;
+  transform: translateY(0);
 }
