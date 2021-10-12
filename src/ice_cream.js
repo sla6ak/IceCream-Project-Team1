@@ -1,4 +1,4 @@
-const ice = document.querySelector(".hero-image")
+const ice = document.querySelector(".hero-counter__image")
 
 setTimeout(() =>{
     leto()
