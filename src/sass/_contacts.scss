@@ -118,7 +118,6 @@
   line-height: 1.5;
   color: var(--third-text-color);
   padding-bottom: 25px;
-  margin-bottom: 25px;
   border-bottom: 1px solid #e1e1e1;
 }
 @media screen and (min-width: 768px) {
@@ -126,27 +125,24 @@
     font-size: 14px;
     line-height: 1.66;
     padding-bottom: 32px;
-    margin-bottom: 32px;
   }
 }
 @media screen and (min-width: 1200px) {
   .contacts-list_text {
     font-size: 16px;
     line-height: 1.83;
-    padding-bottom: 32px;
-    margin-bottom: 32px;
   }
 }
 .contacts-list_hours {
   display: block;
   padding-bottom: 25px;
-  margin-bottom: 25px;
+  padding-top: 25px;
   border-bottom: 1px solid #e1e1e1;
 }
 @media screen and (min-width: 768px) {
   .contacts-list_hours {
     padding-bottom: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
   }
 }
 .contacts-list_block:not(:last-child) {
@@ -185,6 +181,12 @@
 .contacts-list_address {
   display: block;
   line-height: 1.5;
+  padding-top: 25px;
+}
+@media screen and (min-width: 768px) {
+  .contacts-list_address {
+    padding-top: 32px;
+  }
 }
 .contacts-list_item {
   font-size: 12px;
@@ -207,7 +209,10 @@
   display: block;
   cursor: pointer;
 }
-
+.contacts-list_link:hover,
+.contacts-list_link:focus {
+  color: var(--main-title-color);
+}
 .contacts-btn {
   display: flex;
   flex-direction: column;
