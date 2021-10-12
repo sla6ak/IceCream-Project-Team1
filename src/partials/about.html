@@ -1,37 +1,44 @@
 <section class="about">
     <div class="container about__container">
-        <p class="about__pre-text">tradition and love</p>
-        <h2 class="about__title" >how it's made?</h2>
-        <div class="about_card">
-            <picture>
-                <!-- <source srcset="./images/desktop/display-x1/desktop-mukalo-x1.png 1x, ./images/desktop/display-x2/desktop-mukalo-x2.png 2x,  "
-                    media="(min-width:1200px)"> -->
-                <source srcset="./images/desktop/display-x1/desktop-mukalo-x1.png 1x, ./images/desktop/display-x2/desktop-mukalo-x2.png 2x" media="(min-width:768px)">                    
-                <source srcset="./images/mobile/Display-x1/mobi-mukalo-x1.png 1x, ./images/mobile/Display-x2/mobi-mukalo-x2.png 2x" media="(min-width:320px)">
-                <img class="about__image-cow" src="./images/mobile/Display-x1/mobi-mukalo-x1.png " alt="коровка">
-            </picture>
-            <div class="about__text" >
-                <p class="about__text-one"> Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros.
-                Maecenas eleifend erat at justo fringilla.</p>
+        <label class="about__pre-text">tradition and love</label>
+        <h2 class="about__title" >how it's made?</h2>        
+        <ul class="about-list list">
+            <li class="about-list__item">
+                <picture class="about_card">
+                    <source
+                        srcset="./images/desktop/display-x1/desktop-mukalo-x1.png 1x, ./images/desktop/display-x2/desktop-mukalo-x2.png 2x"
+                        media="(min-width:1200px)">
+                    <source
+                        srcset="./images/tablet/display-x1/tablet-mukalo-x1.png 1x, ./images/tablet/display-2x/tablet-mukalo-x2.png 2x"
+                        media="(min-width:768px)">
+                    <source srcset="./images/mobile/Display-x1/mobi-mukalo-x1.png 1x, ./images/mobile/Display-x2/mobi-mukalo-x2.png 2x"
+                        media="(min-width:320px)">
+                    <img class="about__image-cow" src="./images/mobile/Display-x1/mobi-mukalo-x1.png " alt="коровка">
+                </picture>
+            </li>
+            <li class="about-list__item">
+                <p class="about__text-one"> Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
+                    lorem eget, egestas eros.
+                    Maecenas eleifend erat at justo fringilla.</p>
                 <p class="about__text-two">
                     Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
-                    Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.            
+                    Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
                     Aliquam erat volutpat. Aenean accumsan.
-                </p>            
-                <button type="button" class=" button about-btn" >Read more
-                <svg class="about-btn__icon" width="4.43" height="8" >
-                    <use href="./images/sprite.svg#icon-next" >                
-                    </use>
-                </svg>
+                </p>
+                <button type="button" class=" button about-btn">Read more
+                    <svg class="about-btn__icon" width="5" height="8">
+                        <use href="./images/sprite.svg#icon-next2">
+                        </use>
+                    </svg>
                 </button>
-            </div>
-        </div>
+            </li>
+        </ul>           
     </div>
     <div class="modal3">
         <button type="button" class="modal3__btn-close" data-modal-close>
-            <!-- <svg class="modal3__btn-close-icon" width="11" height="11">
-                <use href="./images/icons.svg#icon-vector"></use>
-            </svg> -->
+            <svg class="modal3__btn-close-icon" width="14" height="14">
+                <use href="./images/sprite.svg#icon-close-black-18dp-2-1-1"></use>
+            </svg>
         </button>
         <b class="modal3__title">Преимущества нашей продукции</b>
         <p  class="modal3__text"> Главное преимущество употребления молочных продуктов — это их способность благотворно влиять на микрофлору кишечника.
@@ -39,17 +46,17 @@
         ценным источником здоровья является молоко.</p>
         <form action="#" class="modal3-form">            
             
-            <div class="modal-form-field">
-                <label for="input-tel" class="modal-form-field__label">Телефон</label>
-                <span class="input-wrapper">
-                    <input type="tel" name="modal-tel" id="input-tel" class="modal-form-field__input" placeholder=>
-                    <!-- <svg class="modal-form-field__icon" width="13" height="12">
-                        <use href="./images/icons.svg#icon-tel"></use>
-                    </svg> -->
+            <div class="modal3-form-field">
+                <label for="input-tel" class="modal3-form-field__label">Телефон для обратного звонка</label>
+                <span class="input3-wrapper">
+                    <input type="tel" name="modal-tel" id="input-tel" class="modal3-form-field__input" placeholder=" +38 (067) 000 00 00" >                    
                 </span>
-            </div>           
-            
-                        <button type="submit" class="form-btn">Обратный звонок</button>
+            </div>                       
+        <button type="submit" class="form3-btn" >Заказать обратный звонок
+            <svg class="modal3-form-field__icon" width="14" height="14">
+                <use href="./images/sprite.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+        </button>
         </form>
     </div>
 </section>

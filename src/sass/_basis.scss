@@ -1,4 +1,5 @@
 body {
+<<<<<<< Updated upstream
   font-family: DM Sans, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -7,6 +8,16 @@ body {
   letter-spacing: 0.04em;
   color: var(--main-text-color);
   overflow-x: hidden;
+=======
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.76;
+    letter-spacing: 0.04em;
+    color: var(--main-text-color);
+    overflow-x: hidden;
+>>>>>>> Stashed changes
 }
 
 p,
@@ -35,6 +46,7 @@ img {
   text-decoration: none;
 }
 .button {
+<<<<<<< Updated upstream
   border: none;
   cursor: pointer;
   font-family: inherit;
@@ -59,6 +71,32 @@ img {
     padding-right: 75px;
     width: 1200px;
   }
+=======
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.31;
+}
+.container {
+   padding-left: 20px; 
+   padding-right: 20px;
+   margin: 0 auto;
+   @media screen and (min-width: 480px) {
+        width: 480px;
+    }
+    @media screen and (min-width: 768px) {
+        padding-left: 36px; 
+        padding-right: 36px;
+        width: 768px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding-left: 115px; 
+        padding-right: 115px;
+        width: 1280px;
+    }
+>>>>>>> Stashed changes
 }
 .section-title {
   font-family: Titan One;

@@ -1,4 +1,3 @@
-
 <div class="is-hidden modal " data-footermodal>
     <div class=" modal__view">
         <button class="modal-button" data-footermodal-close>
@@ -9,28 +8,23 @@
 
 <form class="form-modak">
     <p class="call-back">Become our partner</p>
-    <label class="modal-lable">Name
-        <input class="input-style" type="text" name="name">
-            <!-- <svg class="form-icon" width="18" height="18">
-                <use href="./images/symbol-botton.svg#icon-close-black-18dp-2-1-1" ></use>
-            </svg> -->
-    </label>
+    <div class="form-modak_content">
+        <label class="modal-lable momble-mod">Name
+            <input class="input-style" type="text" name="name" placeholder="Name*" required minlength="4">  
+        </label>
+        <label  class="modal-lable momble-mod">Surname
+            <input class="input-style" type="text" name="Surname" placeholder="Surname*" required minlength="4">    
+        </label>
+    </div>
     <label  class="modal-lable">Tel
-        <input class="input-style" type="text" name="tel">
-            <!-- <svg class="form-icon" width="18" height="18">
-                <use href="./images/symbol-botton.svg#icon-email-black-18dp-1" ></use>
-            </svg> -->
+        <input class="input-style" type="text" name="tel" placeholder="Tel*" required minlength="4" pattern="^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$">
     </label>
     <label  class="modal-lable">Email
-        <input class="input-style" type="text" name="email">
-            <!-- <svg class="form-icon" width="18" height="18">
-                <use href="./images/symbol-botton.svg#icon-email" ></use>
-            </svg> -->
+        <input class="input-style" type="text" name="email" placeholder="Email" required minlength="4">
     </label>
 
-    <label for="coments" class="modal-lable">Coments 
+    <label for="coments" class="modal-lable" required minlength="4">Coments 
         <textarea id="coments" class="form-coments" name="coments" placeholder="Enter text"></textarea></label>
-
          <button class="franchise-btn footer-btn" type="button">Send latter</button>
 </form>
     </div>

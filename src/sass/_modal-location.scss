@@ -1,6 +1,9 @@
 
 .modal{
+<<<<<<< Updated upstream
     z-index: 10;
+=======
+>>>>>>> Stashed changes
     position: fixed;
     width: 100%;
     height: 100%;
@@ -20,18 +23,24 @@ body.scroll{
     opacity: 0;
     pointer-events: none;
 }
+<<<<<<< Updated upstream
 .maps{
     width: 100%;
 }
 .modal__view{
     position: relative;
-    background-color: var(--secondary-bg-color);
-    background-image: url(../images/desktop/display-x1/desktop-spray-x1.png);
+    // height: 100%;
+    background-image:url(../images/desktop/display-x1/desktop-spray-x1.png), linear-gradient(229.99deg, #ffcbd8 -26%, #fd7796 145%);
     background-size: cover;
     background-repeat: no-repeat;
+=======
+.modal__view{
+    position: relative;
+    background-color: var(--secondary-bg-color);
+>>>>>>> Stashed changes
     @media screen and (max-width: 479px) {
         width: 100%;
-        min-height: 609px;
+        min-height: 509px;
         padding: 20px;
     }
     @media screen and (min-width: 480px) {
@@ -40,7 +49,7 @@ body.scroll{
         left: 50%;
         transform: translate(-50%, -50%);
         width: 480px;
-        min-height: 400px;
+        min-height: 300px;
         padding: 40px;
     } 
     }
@@ -50,7 +59,7 @@ body.scroll{
     top: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    background-color: var(--mobile-menu-bg-color);
+    background-color: var(--svg-bg-color);
     width: 30px;
     height: 30px;
     display: flex;
@@ -69,5 +78,8 @@ body.scroll{
     line-height: 1.13;
     color: var(--main-title-color);
     margin-bottom: 30px;
+<<<<<<< Updated upstream
     margin-right: 5%;
+=======
+>>>>>>> Stashed changes
 }
