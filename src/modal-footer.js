@@ -12,5 +12,6 @@
     function toggleModal2() {
       refss.modal2.classList.toggle('is-hidden');
       refss.modald2.classList.toggle('scroll');
+      document.querySelector('.muzon').play();
     }
   })();
