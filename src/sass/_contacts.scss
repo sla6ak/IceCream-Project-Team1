@@ -1,22 +1,19 @@
-.visibility-title {
-  visibility: hidden;
-}
 .contacts {
   background: linear-gradient(to top, var(--main-bg-color) 92%, var(--secondary--title-color) 0%);
   @media screen and (min-width: 768px) {
     background: linear-gradient(to top, var(--main-bg-color) 86%, var(--secondary--title-color) 0%);
   }
-  // @media screen and (min-width: 1200px) {
-  //   background-image: url(../images/desktop/display-x1/desktop-contacts-x1.png);
-  //   background-size: contain;
-  //   background-position: 50%;
-  //   background-repeat: no-repeat;
-  // }
-  // @media screen and (min-device-pixel-ratio: 2),
-  //   screen and (min-resolution: 192dpi),
-  //   screen and (min-resolution: 2dppx) {
-  //   background-image: url(../images/desktop/display-x2/desktop-contacts-x2.png);
-  // }
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/desktop/display-x1/desktop-contacts-x1.png);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: url(../images/desktop/display-x2/desktop-contacts-x2.png);
+  }
 }
 
 .contacts-list {
