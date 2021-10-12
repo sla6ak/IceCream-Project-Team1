@@ -23,6 +23,29 @@
   border-radius: 50%;
   position: absolute;
   top: 83px;
+  animation: nev 7s infinite cubic-bezier(0.4, 0, 0.2, 1);
+  @keyframes nev {
+    0% {
+      background-color: var(--pre-title-color);
+    }
+
+    20% {
+      background-color: #fee77e;
+    }
+
+    40% {
+      background-color: #ffba55;
+    }
+    60% {
+      background-color: #c4ecbe;
+    }
+    80% {
+      background-color: #ffc36d;
+    }
+    100% {
+      background-color: var(--pre-title-color);
+    }
+  }
   @media screen and (max-width: 417px) {
     left: 36px;
   }
@@ -49,6 +72,7 @@
   top: 9px;
   left: 81px;
   height: 410px;
+
   @media screen and (min-width: 768px) {
     top: 32px;
     left: 71px;
@@ -342,24 +366,3 @@
     height: 232px;
   }
 }
-// .hero-image {
-//   opacity: 0.2;
-//   transform: scale(0.01) rotate(360deg);
-//   transition-property: transform, opacity;
-//   transition-duration: 500ms;
-// }
-// .prili-leto {
-//   opacity: 1;
-//   transform: scale(1);
-// }
-
-// ._anim-transform {
-//   opacity: 0.2;
-//   transform: rotateY(-100deg);
-//   transition-property: transform, opacity;
-//   transition-duration: 500ms;
-// }
-// ._bomba {
-//   opacity: 1;
-//   transform: rotateY(0deg);
-// }
