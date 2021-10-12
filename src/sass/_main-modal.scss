@@ -22,7 +22,7 @@
     cursor: auto;
     background: var(--background-main-modal);
     box-shadow: var(--box-shadow);
-    border-radius: 7px;
+    border-radius: 10px;
         @media (max-width: 325px){
         position: none;
         min-width: 100%;
@@ -45,8 +45,6 @@
         @media (min-width: 1200px){
           min-width: 528px;
           height: 581px;
-          -webkit-animation: pulsing 1s infinite;
-          animation: pulsing 1s infinite;
         }} 
 
   .main-modal__button_close {
@@ -324,7 +322,7 @@
   } 
 }  
 /**animation *************************/////
-@-webkit-keyframes pulsing {
+  @-webkit-keyframes pulsing {
   0% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5)
