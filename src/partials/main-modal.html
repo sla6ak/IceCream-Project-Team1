@@ -14,7 +14,7 @@
                     <svg class="modal-form__icon modal-icon" width="18" height="18">
                         <use href="./images/sprite.svg#icon-person-black-18dp-1"></use>
                     </svg><span class="form-label-name">Name</span>
-                    <span class="modal-form__container-input"><input type="text" name="username" class="modal-form__input"
+                    <span class="modal-form__container-input"><input type="text" required name="username" class="modal-form__input"
                             autofocus  minlength="3" placeholder=" "></span>
                 </span>
             </Label>  
@@ -22,9 +22,10 @@
                 <span class="form-label__container">
                     <svg class="modal-form__icon modal-icon" width="18" height="18">
                         <use href="./images/sprite.svg#icon-mobile"></use>
-                    </svg><span class="form-label-name">Phone</span>
-                    <span class="modal-form__container-input"><input type="tel" name="phone_number"
-                            class="modal-form__input" minlength="3" placeholder=" "></span>
+                    </svg>
+                    <span class="form-label-name">Phone</span>
+                    <span class="modal-form__container-input">
+                        <input type="tel" name="phone_number" required class="modal-form__input" minlength="3" placeholder=" "></span>
                 </span>
             </Label>
             <Label class="modal-form__label">
@@ -32,7 +33,7 @@
                     <svg class="modal-form__icon modal-icon" width="18" height="18">
                         <use href="./images/sprite.svg#icon-location2"></use>
                     </svg><span class="form-label-name">Your address</span>
-                    <span class="modal-form__container-input"><input type="addres" mame="addres"
+                    <span class="modal-form__container-input"><input type="addres" required mame="addres"
                             class="modal-form__input"  minlength="3" placeholder=""></span>
                 </span>
             </Label>
@@ -46,7 +47,7 @@
             
             <label class="modal-form__label-check">
                 <span class="label-checkbox-container">
-                    <input type="checkbox"
+                    <input required type="checkbox"
                         class="modal-form__checkbox-hidden visually-hidden">
                     <span class="modal-form__checkbox-icon modal-icon">
                     </span>
