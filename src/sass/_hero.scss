@@ -366,3 +366,13 @@
     height: 232px;
   }
 }
+.hero-counter__image {
+  opacity: 0.2;
+  transform: scale(0.01);
+  transition-property: transform, opacity;
+  transition-duration: 500ms;
+}
+.prili-leto {
+  opacity: 1;
+  transform: scale(1);
+}
