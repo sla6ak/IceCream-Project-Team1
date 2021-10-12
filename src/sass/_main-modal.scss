@@ -45,6 +45,8 @@
         @media (min-width: 1200px){
           min-width: 528px;
           height: 581px;
+          -webkit-animation: pulsing 1s infinite;
+          animation: pulsing 1s infinite;
         }} 
 
   .main-modal__button_close {
@@ -65,7 +67,6 @@
     &:hover,
     &:focus {
       box-shadow: var(--box-shadow-card);
-      background: var(--mn-modal-backgraund-button3);
     }
   }
   
@@ -76,6 +77,8 @@
     height: 18px;
     .main-modal__button_close:hover &,
     .main-modal__button_close:focus & {
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
       fill: var(--close-color);
     } 
   }
@@ -140,6 +143,8 @@
       box-shadow: var(--box-shadow-card);
     }
     .modal-form__label:hover & {
+      -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
       border-color: var(--accent-color-mod2);
       fill: var(--accent-color-mod2);
       box-shadow: var(--box-shadow-card);
@@ -318,5 +323,33 @@
     color: var(--accent-color-mod21);
   } 
 }  
+/**animation *************************/////
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
 
-  
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
