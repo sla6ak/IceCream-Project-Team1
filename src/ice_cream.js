@@ -1,7 +1,9 @@
 // const ice = document.querySelector(".hero-info__picture")
 // const girl = document.querySelector(".hero-counter__image")
 
-
+function cirk() {
+    cream.classList.add("circle")
+}
 function leto(){
     ice.classList.add("prili-leto")
     girl.classList.add("prili-girl")
@@ -11,6 +13,7 @@ function leto(){
 const ice = document.querySelector(".hero-info__picture");
 const girl = document.querySelector(".hero-counter__image");
 const hero = document.querySelector(".hero");
+const cream = document.querySelector(".hero-image");
 // проверим есть ли такие классы вообще
 
 window.addEventListener("scroll", animScroll2)
@@ -32,12 +35,16 @@ function animScroll2 () {
 
     if(( pageYOffset > animOffset - animPoint ) && pageYOffset < (animOffset + animHeight)){
         setTimeout(() =>{
-            leto()
+            cirk()
         },1500);
+        setTimeout(() =>{
+            leto()
+        },4000);
     }
     else {
         ice.classList.remove("prili-leto");
         girl.classList.remove("prili-girl");
+        cream.classList.remove("circle");
     }
    
    
