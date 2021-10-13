@@ -39,7 +39,7 @@ function animScroll2 () {
         },1000);
         setTimeout(() =>{
             leto()
-        },3000);
+        },2500);
     }
     else {
         ice.classList.remove("prili-leto");
