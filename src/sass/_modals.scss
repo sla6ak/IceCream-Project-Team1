@@ -71,3 +71,14 @@ body.scroll{
         box-shadow: var(--box-shadow-card);
     }
 }
+.modal__cloused--icon{
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  fill: currentColor;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
