@@ -36,10 +36,10 @@ function animScroll2 () {
     if(( pageYOffset > animOffset - animPoint ) && pageYOffset < (animOffset + animHeight)){
         setTimeout(() =>{
             cirk()
-        },1500);
+        },1000);
         setTimeout(() =>{
             leto()
-        },4000);
+        },3000);
     }
     else {
         ice.classList.remove("prili-leto");
