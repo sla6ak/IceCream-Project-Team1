@@ -1,27 +1,3 @@
-// li { list-style-type: none;
-// }
-
-// .container{
-//     max-width: 1200px;
-//     min-width: 280px;
-//     margin-right: auto;
-//     margin-left: auto;
-//     justify-content: center;
-//     align-items: center;
-
-//     @media screen and (max-width: 767px) {
-//         max-width: 480px;
-//     }
-
-//     @media screen and (min-width: 768px) {
-//         width: 768px;
-//     }
-
-//     @media screen and (min-width: 1200px)   {
-//         width: 1200px;
-//     }  
-// }
-
 .advantages{
     background-color: var(--main-bg-color);
     padding-bottom: 97px;
@@ -37,17 +13,44 @@
     text-transform: uppercase;
     color:var( --btn-header-secondary-bg-color);
 
-    margin-top: 60px;
-    margin-bottom: 25px;
+    margin-top: 45px;
+    display: inline-block;
 
     @media screen and (min-width: 768px) {
         font-size: 48px;
-        margin-bottom: 35px;
-
     }
     @media screen and (min-width: 1200px) {
         font-size: 58px;
-        margin-bottom: 44px;
+    }
+}
+
+.advantages__li { 
+    &:first-child:before {
+      content: '';
+      background-image: url(../images/advantages/cup.png);
+      width: 50px;
+      height: 50px;
+      background-repeat: no-repeat;
+      display: block;
+
+    }
+    &:nth-child(2):before {
+      content: '';
+      background-image: url(../images/advantages/apples.png);
+      width: 50px;
+      height: 50px;
+      background-repeat: no-repeat;
+      display: block;
+    }
+    &:nth-child(3):before {
+      content: '';
+      background-image: url(../images/advantages/heart.png);
+      width: 50px;
+      height: 50px;
+      display: block;
+      background-repeat: no-repeat;
+
+  
     }
 }
 
@@ -57,23 +60,25 @@
     font-weight: bold;
     font-size: 12px;
     line-height: 170%;
+    margin-top: 8px;
 
     @media screen and (min-width: 768px) {
         font-size: 14px;
+        margin-top: 20px;
     }
     @media screen and (min-width: 1200px) {
         font-size: 16px;
+        margin-top: 22px;
     }
 }
 
 .advantages__li+.advantages__li{
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         margin-top:38px ;
     }
 }
 
-.advantages__li{
-
+.advantages__li:not(:last-child){
     background-repeat: no-repeat;
     @media screen and (min-width: 768px) {
         margin-right: 73px;
