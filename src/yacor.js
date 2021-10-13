@@ -6,3 +6,9 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
+
+
+// $(document).on("click", ".mobile-menu__link", function(){
+
+//     $(".mobile-menu__link").closest(".mobile-menu__list list").removeClass("is-open").hide();
+// });
