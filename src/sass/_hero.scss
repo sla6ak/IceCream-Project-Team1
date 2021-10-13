@@ -378,9 +378,7 @@
   height: 410px;
   opacity: 0.2;
   transform: scale(0.01) rotate(360deg);
-  transition-property: transform, opacity;
-  transition-duration: 1000ms;
-  transition-timing-function: cubic-bezier(.8, .1, 1, .04);
+  
 
   @media screen and (min-width: 768px) {
     top: 32px;
@@ -398,6 +396,9 @@
 .circle{
   opacity: 1;
   transform: scale(1);
+  transition-property: transform, opacity;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(.8, .1, 1, .04);
   }
 
   // .hero-image {
