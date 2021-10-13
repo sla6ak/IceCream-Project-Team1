@@ -12,5 +12,8 @@
     function toggleModal3() {
       refsf.modal3.classList.toggle('is-hidden');
       refsf.modald3.classList.toggle('scroll');
+      let musik = document.querySelector('.muzon')
+      musik.volume = 0.2;
+      musik.play();
     }
   })();
